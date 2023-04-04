@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+header{
+   
+    margin-top: 47px;
+    margin-left: 42px;
+    
+    
+}
+
+.link-menu{
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.buttom-header{
+    border:1px solid  #4CB538;
+    background: #6FBF44;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+}
+.image-main{
+   display:inline-block;
+   margin: 163px 0 0 123px;
+   position: static;
+}
+section{
+    display:inline-block;
+    width: 493px;
+    margin-left: 85px;
+    
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    
+}
+
+p{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.main-buttom{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+
+}
+
+@media screen and (max-width: 730px){
+    .link-menu{
+        display: none;
+    }
+    section{
+        display: block;
+    }
+    .image-main{
+        display: block;
+        position: absolute;
+        margin: 490px 39px 22px 0;
+    }
+
+    h1{
+        font-size: 37px;
+        line-height: 50px;
+        text-align: center;
+        margin: 83px 75px 29px 0
+    }
+
+    .buttom-header{
+        margin: 17px 15px 0 350px;
+       
+    }   
+    
+    header{
+        padding: 17px;
+         margin: auto;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin: 29px 73px 0px 15px;
+    }
+    .main-buttom{
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px; 
+        margin: 26px 139px 0 139px;
+        align-items: center;
+    }
+}
